@@ -9,13 +9,10 @@ int main() {
 	printf("Por favor insira um número inteiro e retornarei a coordenada correspondente a esse ponto\n");
 	scanf("%d", &n);
 	while (contador < n) {
-
-		if (!isEixoX) {
+		if (!isEixoX) 
 			y = y + unidade;
-		}
-		else {
+		else 
 			x = x - unidade;
-		}
 
 		if (auxiliarOrientacao == comprimentoReta) {
 			auxiliarOrientacao = 0;
@@ -23,13 +20,10 @@ int main() {
 
 			if (!isEixoX) {
 				comprimentoReta++;
-
-				if (comprimentoReta % 2 == 0) {
+				if (comprimentoReta % 2 == 0) 
 					unidade = -1;
-				}
-				else {
+				else 
 					unidade = 1;
-				}
 			}
 		}
 		auxiliarOrientacao++;
