@@ -8,4 +8,4 @@ Para executar os programas, siga os seguintes passos:
 		./espquadrada
 	Espiral triangular:
 		gcc esptriangular.c -o esptriangular
-		./esptriangular
+		./esptriangular[211TP_EspiralQuadradaTriangular.pdf](https://github.com/gabrieldep/Espirais/files/9417540/211TP_EspiralQuadradaTriangular.pdf)
